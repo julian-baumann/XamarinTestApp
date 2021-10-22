@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp.Pages.StartPage"
+             Title="Start"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout
+                Padding="20">
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+                
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+                
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+                
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+                
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+                
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+                
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+                
+                <Frame
+                    BackgroundColor="Aqua"
+                    CornerRadius="13"
+                    WidthRequest="500"
+                    HeightRequest="100"
+                    HasShadow="False"
+                    />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

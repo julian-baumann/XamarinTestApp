@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:pages="clr-namespace:TestApp.Pages;assembly=TestApp"
+
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            x:Class="TestApp.TabsPage">
+
+    <TabbedPage.BarBackgroundColor>
+        <OnPlatform x:TypeArguments="Color">
+            <On Platform="Android">#FFFFFF</On>
+        </OnPlatform>
+    </TabbedPage.BarBackgroundColor>
+
+    <NavigationPage Title="Start" IconImageSource="home.png" ios:NavigationPage.PrefersLargeTitles="True">
+        <x:Arguments>
+            <pages:StartPage />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Test" IconImageSource="images.png" ios:NavigationPage.PrefersLargeTitles="true">
+        <x:Arguments>
+            <pages:TestPage />
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>
